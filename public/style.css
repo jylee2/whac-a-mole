@@ -1,0 +1,42 @@
+/* Centre the <div> */
+.classCenterDiv {
+  display: flex;
+  /* The flexible items are displayed vertically, as a column */
+  flex-direction: column;
+  /* Align the flex items at the center of the container, horizontally */
+  justify-content: center;
+  /* Center the alignments for all the items of the flexible <div> element, vertically */
+  align-items: center;
+  /* Center the text horizontally */
+  text-align: center;
+}
+
+.classHeader {
+  padding: 20px;
+}
+
+.classPlayBtn {
+  width: 200px;
+  height: 100px;
+}
+
+.classCanvas {
+  width: 300px;
+  height: 300px;
+}
+
+.classMoleHole {
+  width: 100px;
+  height: 100px;
+}
+
+.classMole {
+  width: 100px;
+  height: 100px;
+  /* make it round */
+  border-radius: 50%;
+}
+
+.classMoleRow {
+  margin: 0
+}

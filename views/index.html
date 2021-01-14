@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whac-A-Mole</title>
+  <!-- Preloading content with rel="preload" -->
+  <link rel="preload" href="../public/style.css" as="style">
+  <link rel="preload" href="../public/App.jsx" as="script">
+  <!-- Load Twitter Bootstrap from Codepen -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"> -->
+  <!-- React Bootstrap -->
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    crossorigin="anonymous"
+  />
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+  <!-- Load own css -->
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+  <!-- React element -->
+  <div id="root"></div>
+</body>
+  <!-- https://reactjs.org/docs/cdn-links.html -->
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+  <!-- Load React DOM that adds DOM-specific methods-->
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+  <!-- JavaScript compiler that lets us use ES6+ in old browsers -->
+  <script src="https://unpkg.com/babel-standalone@^6.26.0/babel.js"></script>
+  <!-- Load React.JS Component -->
+  <script type="text/babel" src="../public/App.jsx"></script>
+</html>
