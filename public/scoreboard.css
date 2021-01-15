@@ -1,0 +1,28 @@
+/* Centre the <div> */
+.classCenterDiv {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* The flexible items are displayed vertically, as a column */
+  flex-direction: column;
+  /* Align the flex items at the center of the container, horizontally */
+  justify-content: center;
+  /* Center the alignments for all the items of the flexible <div> element, vertically */
+  align-items: center;
+  /* Center the text horizontally */
+  text-align: center;
+}
+
+.classHeader {
+  padding: 30px;
+}
+
+.classBox {
+  min-width: 280px;
+}
+
+.classPlayAgain {
+  margin-bottom: 20px;
+  padding: 10px;
+  max-width: 350px;
+}

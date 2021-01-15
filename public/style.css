@@ -1,5 +1,7 @@
 /* Centre the <div> */
 .classCenterDiv {
+  margin: 0;
+  padding: 0;
   display: flex;
   /* The flexible items are displayed vertically, as a column */
   flex-direction: column;
@@ -12,17 +14,33 @@
 }
 
 .classHeader {
-  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.classTextBlack {
+  text-decoration: none;
+  color: black;
+}
+
+.classTextBlack:hover {
+  text-decoration: none;
+  color: black;
 }
 
 .classPlayBtn {
   width: 200px;
   height: 100px;
+  font-size: 20pt;
 }
 
 .classCanvas {
   width: 300px;
   height: 300px;
+}
+
+.classMoleRow {
+  margin: 0
 }
 
 .classMoleHole {
@@ -35,8 +53,42 @@
   height: 100px;
   /* make it round */
   border-radius: 50%;
+  border-style: none;
+  background-color: #9F8064;
 }
 
-.classMoleRow {
-  margin: 0
+.classMoleNose {
+  position: relative;
+  top: -10px;
+  left: 18px;
+  width: 3rem;
+  height: 1.6rem;
+  border-radius: 50% 50% 50% 50%;
+  background-color: #7b524c;
+  -webkit-box-shadow: 0 0 52px 0 rgb(63, 49, 32);
+  -moz-box-shadow: 0 0 52px 0 rgb(63, 49, 32);
+  box-shadow: 0 0 52px 0 rgb(63, 49, 32);
+}
+
+.classMoleLeftEye{
+  position: relative;
+  top: 10px;
+  left: 25px;
+  height: 20px;
+  width: 10px;
+  background-color: black;
+  border-radius: 50% 50% 50% 50%;
+  padding: 0;
+  /* overflow: hidden; */
+}
+.classMoleRightEye{
+  position: relative;
+  top: -10px;
+  left: 48px;
+  height: 20px;
+  width: 10px;
+  background-color: black;
+  border-radius: 50% 50% 50% 50%;
+  padding: 0;
+  /* overflow: hidden; */
 }
